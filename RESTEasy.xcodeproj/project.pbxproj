@@ -13,18 +13,7 @@
 		FA6DA8DB1A21706E004AE16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6DA8D91A21706E004AE16A /* Main.storyboard */; };
 		FA6DA8DD1A21706E004AE16A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6DA8DC1A21706E004AE16A /* Images.xcassets */; };
 		FA6DA8E01A21706E004AE16A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6DA8DE1A21706E004AE16A /* LaunchScreen.xib */; };
-		FA6DA8EC1A21706E004AE16A /* RESTEasyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6DA8EB1A21706E004AE16A /* RESTEasyTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FA6DA8E61A21706E004AE16A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA6DA8C41A21706E004AE16A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA6DA8CB1A21706E004AE16A;
-			remoteInfo = RESTEasy;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA6DA8CC1A21706E004AE16A /* RESTEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		FA6DA8DA1A21706E004AE16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA6DA8DC1A21706E004AE16A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA6DA8DF1A21706E004AE16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FA6DA8E51A21706E004AE16A /* RESTEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA6DA8EA1A21706E004AE16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA6DA8EB1A21706E004AE16A /* RESTEasyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESTEasyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA6DA8C91A21706E004AE16A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA6DA8E21A21706E004AE16A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				FA6DA8CE1A21706E004AE16A /* RESTEasy */,
-				FA6DA8E81A21706E004AE16A /* RESTEasyTests */,
 				FA6DA8CD1A21706E004AE16A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				FA6DA8CC1A21706E004AE16A /* RESTEasy.app */,
-				FA6DA8E51A21706E004AE16A /* RESTEasyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA6DA8E81A21706E004AE16A /* RESTEasyTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA6DA8EB1A21706E004AE16A /* RESTEasyTests.m */,
-				FA6DA8E91A21706E004AE16A /* Supporting Files */,
-			);
-			path = RESTEasyTests;
-			sourceTree = "<group>";
-		};
-		FA6DA8E91A21706E004AE16A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA6DA8EA1A21706E004AE16A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +99,6 @@
 			productReference = FA6DA8CC1A21706E004AE16A /* RESTEasy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA6DA8E41A21706E004AE16A /* RESTEasyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA6DA8F21A21706E004AE16A /* Build configuration list for PBXNativeTarget "RESTEasyTests" */;
-			buildPhases = (
-				FA6DA8E11A21706E004AE16A /* Sources */,
-				FA6DA8E21A21706E004AE16A /* Frameworks */,
-				FA6DA8E31A21706E004AE16A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA6DA8E71A21706E004AE16A /* PBXTargetDependency */,
-			);
-			name = RESTEasyTests;
-			productName = RESTEasyTests;
-			productReference = FA6DA8E51A21706E004AE16A /* RESTEasyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +110,6 @@
 				TargetAttributes = {
 					FA6DA8CB1A21706E004AE16A = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					FA6DA8E41A21706E004AE16A = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = FA6DA8CB1A21706E004AE16A;
 					};
 				};
 			};
@@ -189,7 +127,6 @@
 			projectRoot = "";
 			targets = (
 				FA6DA8CB1A21706E004AE16A /* RESTEasy */,
-				FA6DA8E41A21706E004AE16A /* RESTEasyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +139,6 @@
 				FA6DA8DB1A21706E004AE16A /* Main.storyboard in Resources */,
 				FA6DA8E01A21706E004AE16A /* LaunchScreen.xib in Resources */,
 				FA6DA8DD1A21706E004AE16A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA6DA8E31A21706E004AE16A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA6DA8E11A21706E004AE16A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA6DA8EC1A21706E004AE16A /* RESTEasyTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA6DA8E71A21706E004AE16A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA6DA8CB1A21706E004AE16A /* RESTEasy */;
-			targetProxy = FA6DA8E61A21706E004AE16A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA6DA8D91A21706E004AE16A /* Main.storyboard */ = {
@@ -359,40 +273,6 @@
 			};
 			name = Release;
 		};
-		FA6DA8F31A21706E004AE16A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RESTEasyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESTEasy.app/RESTEasy";
-			};
-			name = Debug;
-		};
-		FA6DA8F41A21706E004AE16A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RESTEasyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RESTEasy.app/RESTEasy";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,14 +292,7 @@
 				FA6DA8F11A21706E004AE16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FA6DA8F21A21706E004AE16A /* Build configuration list for PBXNativeTarget "RESTEasyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA6DA8F31A21706E004AE16A /* Debug */,
-				FA6DA8F41A21706E004AE16A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
