@@ -20,6 +20,8 @@
 		FA6DA9031A21724C004AE16A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6DA9021A21724C004AE16A /* Foundation.framework */; };
 		FA6DA9081A21724C004AE16A /* Spec-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA6DA9071A21724C004AE16A /* Spec-Info.plist */; };
 		FA6DA90F1A21724D004AE16A /* Spec-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = FA6DA90E1A21724D004AE16A /* Spec-Prefix.pch */; };
+		FA6DA9151A22CE07004AE16A /* RESTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6DA9141A22CE07004AE16A /* RESTClient.m */; };
+		FA6DA9171A22CE1C004AE16A /* RESTClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA6DA9161A22CE1C004AE16A /* RESTClientSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,9 @@
 		FA6DA9071A21724C004AE16A /* Spec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spec-Info.plist"; sourceTree = "<group>"; };
 		FA6DA90B1A21724C004AE16A /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
 		FA6DA90E1A21724D004AE16A /* Spec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spec-Prefix.pch"; sourceTree = "<group>"; };
+		FA6DA9131A22CE07004AE16A /* RESTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTClient.h; sourceTree = "<group>"; };
+		FA6DA9141A22CE07004AE16A /* RESTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTClient.m; sourceTree = "<group>"; };
+		FA6DA9161A22CE1C004AE16A /* RESTClientSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RESTClientSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,8 @@
 		FA6DA8CE1A21706E004AE16A /* RESTEasy */ = {
 			isa = PBXGroup;
 			children = (
+				FA6DA9131A22CE07004AE16A /* RESTClient.h */,
+				FA6DA9141A22CE07004AE16A /* RESTClient.m */,
 				FA6DA8D31A21706E004AE16A /* AppDelegate.h */,
 				FA6DA8D41A21706E004AE16A /* AppDelegate.m */,
 				FA6DA8D61A21706E004AE16A /* ViewController.h */,
@@ -138,6 +145,7 @@
 		FA6DA9041A21724C004AE16A /* Spec */ = {
 			isa = PBXGroup;
 			children = (
+				FA6DA9161A22CE1C004AE16A /* RESTClientSpec.mm */,
 				FA6DA9071A21724C004AE16A /* Spec-Info.plist */,
 				FA6DA90B1A21724C004AE16A /* Rakefile */,
 				FA6DA90E1A21724D004AE16A /* Spec-Prefix.pch */,
@@ -303,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6DA9151A22CE07004AE16A /* RESTClient.m in Sources */,
 				FA6DA8D81A21706E004AE16A /* ViewController.m in Sources */,
 				FA6DA8D51A21706E004AE16A /* AppDelegate.m in Sources */,
 				FA6DA8D21A21706E004AE16A /* main.m in Sources */,
@@ -313,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6DA9171A22CE1C004AE16A /* RESTClientSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
